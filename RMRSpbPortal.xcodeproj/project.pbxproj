@@ -26,7 +26,7 @@
 		630C9337236F170A003396F8 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C9335236F170A003396F8 /* UIView+Layout.swift */; };
 		630C933B236F24A6003396F8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C933A236F24A6003396F8 /* BaseViewController.swift */; };
 		630C933D236F25E4003396F8 /* MainMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C933C236F25E4003396F8 /* MainMenuItem.swift */; };
-		630C9340236F27A3003396F8 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C933F236F27A3003396F8 /* ActionView.swift */; };
+		630C9340236F27A3003396F8 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C933F236F27A3003396F8 /* ActionButton.swift */; };
 		630C9342236F2D24003396F8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C9341236F2D24003396F8 /* Localization.swift */; };
 		630C9344236F4380003396F8 /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630C9343236F4380003396F8 /* MainMenu.storyboard */; };
 		630DA67C236CDF440066DDE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630DA67B236CDF440066DDE6 /* AppDelegate.swift */; };
@@ -68,7 +68,7 @@
 		630C9335236F170A003396F8 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		630C933A236F24A6003396F8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		630C933C236F25E4003396F8 /* MainMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuItem.swift; sourceTree = "<group>"; };
-		630C933F236F27A3003396F8 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		630C933F236F27A3003396F8 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		630C9341236F2D24003396F8 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		630C9343236F4380003396F8 /* MainMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenu.storyboard; sourceTree = "<group>"; };
 		630DA678236CDF440066DDE6 /* RMRSpb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMRSpb.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -218,7 +218,7 @@
 		630C933E236F2789003396F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				630C933F236F27A3003396F8 /* ActionView.swift */,
+				630C933F236F27A3003396F8 /* ActionButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -444,7 +444,7 @@
 				630DA6AB236DF6080066DDE6 /* ConfigurationParameters.swift in Sources */,
 				630C9314236F04C4003396F8 /* Fonts.swift in Sources */,
 				630DA6BD236E00650066DDE6 /* ContainerBuilder.swift in Sources */,
-				630C9340236F27A3003396F8 /* ActionView.swift in Sources */,
+				630C9340236F27A3003396F8 /* ActionButton.swift in Sources */,
 				630DA698236CE6770066DDE6 /* ApplicationFlow.swift in Sources */,
 				630C933B236F24A6003396F8 /* BaseViewController.swift in Sources */,
 				630C931B236F0BA0003396F8 /* TextStyles.swift in Sources */,
