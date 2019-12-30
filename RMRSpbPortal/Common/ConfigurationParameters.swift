@@ -22,12 +22,12 @@ struct ConfigurationParameters {
     }
 
     private func unescape(string: String) -> String {
-        return string.replacingOccurrences(of: "\\/", with: "/")
+        string.replacingOccurrences(of: "\\/", with: "/")
     }
 }
 
 extension Bundle {
     var configurationParameters: ConfigurationParameters {
-        return ConfigurationParameters(bundle: self)
+        ConfigurationParameters(bundle: self)
     }
 }

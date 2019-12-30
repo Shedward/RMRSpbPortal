@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Menu View Controller-->
+        <scene sceneID="k5W-hH-4lI">
+            <objects>
+                <viewController storyboardIdentifier="MainMenuViewController" id="QFw-lm-2I0" customClass="MainMenuViewController" customModule="RMRSpb" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7er-ud-N8q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="always" translatesAutoresizingMaskIntoConstraints="NO" id="tqO-XG-D0q">
+                                <rect key="frame" x="20" y="20" width="374" height="856"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="bBE-h2-gXm">
+                                        <rect key="frame" x="20" y="20" width="334" height="138"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGC-Bl-Cw7">
+                                                <rect key="frame" x="0.0" y="0.0" width="334" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oID-kl-eCP">
+                                                <rect key="frame" x="0.0" y="54" width="334" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i70-FV-uew">
+                                                <rect key="frame" x="0.0" y="108" width="334" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bBE-h2-gXm" secondAttribute="trailing" constant="20" symbolic="YES" id="HUe-6a-2dX"/>
+                                    <constraint firstItem="bBE-h2-gXm" firstAttribute="top" secondItem="tqO-XG-D0q" secondAttribute="top" constant="20" symbolic="YES" id="J4g-H1-Thr"/>
+                                    <constraint firstItem="bBE-h2-gXm" firstAttribute="leading" secondItem="tqO-XG-D0q" secondAttribute="leading" constant="20" symbolic="YES" id="T3k-n9-5Qw"/>
+                                    <constraint firstAttribute="bottom" secondItem="bBE-h2-gXm" secondAttribute="bottom" constant="20" symbolic="YES" id="Z9k-ml-gzf"/>
+                                    <constraint firstItem="bBE-h2-gXm" firstAttribute="centerX" secondItem="tqO-XG-D0q" secondAttribute="centerX" id="tV6-vh-IDZ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" name="background"/>
+                        <constraints>
+                            <constraint firstItem="tqO-XG-D0q" firstAttribute="leading" secondItem="7er-ud-N8q" secondAttribute="leading" constant="20" symbolic="YES" id="GX6-ba-yNe"/>
+                            <constraint firstAttribute="bottom" secondItem="tqO-XG-D0q" secondAttribute="bottom" constant="20" symbolic="YES" id="s0c-ho-Zg4"/>
+                            <constraint firstItem="tqO-XG-D0q" firstAttribute="top" secondItem="7er-ud-N8q" secondAttribute="top" constant="20" symbolic="YES" id="ubx-kB-jqB"/>
+                            <constraint firstAttribute="trailing" secondItem="tqO-XG-D0q" secondAttribute="trailing" constant="20" symbolic="YES" id="y3S-fd-V3s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aOb-k9-767"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonsStack" destination="bBE-h2-gXm" id="W8Z-Hg-WEC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HcS-OH-J3U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-59.420289855072468" y="108.48214285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="background">
+            <color red="0.98799997568130493" green="0.24699999392032623" blue="0.2199999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
